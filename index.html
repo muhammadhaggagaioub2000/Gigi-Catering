@@ -1,225 +1,214 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Gigi Catering | Homemade Food in Egypt</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-
+    <title>جيجي كاترينج | Gigi Catering</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="Css/Style.css">
 </head>
-
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-
-        <h1>Gigi Catering</h1>
-
-        <div class="nav-right">
-
-            <button class="lang-btn" id="langToggle">
-                <span data-en="العربية" data-ar="English">العربية</span>
-            </button>
-
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <ul id="navLinks">
-                <li><a href="#home" class="nav-link active" data-en="Home" data-ar="الرئيسية">Home</a></li>
-                <li><a href="#about" class="nav-link" data-en="About Us" data-ar="من نحن">About Us</a></li>
-                <li><a href="#menu" class="nav-link" data-en="Menu" data-ar="المينيو">Menu</a></li>
-                <li><a href="#contact" class="nav-link" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</a></li>
-            </ul>
-
-        </div>
-
-    </nav>
-
-
-    <!-- Home -->
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <h2 data-en="Homemade Taste, Made with Love"
-                data-ar="طعم البيت، بكل حب">Homemade Taste, Made with Love</h2>
-
-            <p data-en="Gigi Catering brings you delicious homemade food made with high-quality ingredients and authentic taste."
-               data-ar="جيجي كاترينج بتقدملك أكل بيتي بطعم أصيل وجودة عالية، بأجود المكونات.">
-                Gigi Catering brings you delicious homemade food
-                made with high-quality ingredients and authentic taste.
-            </p>
-
-            <a href="#menu" class="main-btn" data-en="View Our Menu" data-ar="شوف المينيو">
-                View Our Menu
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-utensils"></i> جيجي <span>كاترينج</span>
             </a>
-
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">الرئيسية</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#menu" class="nav-link">قائمة الطعام</a>
+                <a href="#drive-menu" class="nav-link">تحميل المنيو PDF</a>
+                <a href="#features" class="nav-link">مميزاتنا</a>
+                <a href="#contact" class="nav-link">تواصل معنا</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
         </div>
+    </header>
 
-    </section>
-
-
-    <!-- About Us -->
-    <section class="about" id="about">
-
-        <div class="about-content">
-
-            <h2 data-en="Who Are We?" data-ar="مين إحنا؟">Who Are We?</h2>
-
-            <p data-en="Gigi Catering is a catering service in Egypt specializing in delicious homemade food. We care about quality, taste, and presentation to make every meal special."
-               data-ar="جيجي كاترينج هي شركة كاترينج في مصر متخصصة في تقديم أكل بيتي بجودة عالية. بنهتم باختيار أفضل المكونات وطريقة التحضير والتقديم عشان نقدملك أكل بطعم البيت وجودة تليق بيك.">
-                Gigi Catering is a catering service in Egypt
-                specializing in delicious homemade food.
-                We care about quality, taste, and presentation
-                to make every meal special.
-            </p>
-
-            <p data-en="Whether it's a family gathering, special occasion, corporate event, or celebration, we are ready to provide delicious food made with care."
-               data-ar="سواء كانت تجمعات عائلية، مناسبات خاصة، فعاليات شركات، أو احتفالات، إحنا جاهزين نقدملك أكل لذيذ بعناية فائقة.">
-                Whether it's a family gathering, special occasion,
-                corporate event, or celebration, we are ready
-                to provide delicious food made with care.
-            </p>
-
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">خبرة منذ عام 2015</span>
+            <h1>أشهى المأكولات والمطبوخات المنزلية بأعلى جودة وأفضل طعم</h1>
+            <p>أطباق دواجن وطيلور طازجة، لحوم بلدي، محاشي، طواجن، باستا وأرز معمر بمذاق بيتي نظيف وخدمة توصيل سريعة.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> اطلب من القائمة</a>
+                <!-- رابط المنيو من الجوجل درايف -->
+                <a href="https://drive.google.com/file/d/1TyzPM0xh1jsRwtOd-i4XvqztyVMS5kVI/view?usp=sharing" target="_blank" class="btn btn-outline"><i class="fa-solid fa-file-pdf"></i> عرض المنيو PDF (Drive)</a>
+            </div>
         </div>
-
     </section>
 
-
-    <!-- Why Choose Us -->
-    <section class="features">
-
-        <h2 data-en="Why Choose Gigi Catering?" data-ar="ليه تختار جيجي كاترينج؟">Why Choose Gigi Catering?</h2>
-
-        <div class="features-container">
-
-            <div class="feature-card">
-                <h3 data-en="Homemade Taste" data-ar="طعم بيتي">Homemade Taste</h3>
-                <p data-en="Authentic homemade food with a delicious taste."
-                   data-ar="أكل بيتي أصيل بطعم مميز.">
-                    Authentic homemade food with a delicious taste.
-                </p>
+    <!-- Features Section -->
+    <section id="features" class="features section-padding">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-house-chimney"></i></div>
+                    <h3>مطبخ بيتي 100%</h3>
+                    <p>أكلات بيتي طازجة يومياً مجهزة بأعلى معايير الجودة والنظافة.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-drumstick-bite"></i></div>
+                    <h3>لحوم بلدي وطيور طازجة</h3>
+                    <p>نستخدم لحوم بلدي طازجة ودواجن يومية مضمونة النظافة والمذاق.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>سرعة في التوصيل</h3>
+                    <p>توصيل آمن وسريع ليصلك الطعام طازجاً وساخناً حتى باب بيتك.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fa-solid fa-heart"></i></div>
+                    <h3>راحة في الخدمة</h3>
+                    <p>نوفر لك تجربة ممتازة وخدمة عملاء مريحة لتلبية طلبات العزومات والمناسبات.</p>
+                </div>
             </div>
-
-            <div class="feature-card">
-                <h3 data-en="High Quality" data-ar="جودة عالية">High Quality</h3>
-                <p data-en="We care about the quality of every ingredient."
-                   data-ar="بنهتم بجودة كل مكون في أطباقنا.">
-                    We care about the quality of every ingredient.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <h3 data-en="Fresh Food" data-ar="أكل طازة">Fresh Food</h3>
-                <p data-en="Freshly prepared food for every occasion."
-                   data-ar="بنجهز الأكل طازة لكل مناسبة.">
-                    Freshly prepared food for every occasion.
-                </p>
-            </div>
-
-            <div class="feature-card">
-                <h3 data-en="For Every Occasion" data-ar="لكل المناسبات">For Every Occasion</h3>
-                <p data-en="Perfect for gatherings, parties and events."
-                   data-ar="مناسب للتجمعات والحفلات والفعاليات.">
-                    Perfect for gatherings, parties and events.
-                </p>
-            </div>
-
         </div>
-
     </section>
 
-
-    <!-- Menu -->
-    <section class="menu" id="menu">
-
-        <h2 data-en="Our Menu" data-ar="المينيو بتاعنا">Our Menu</h2>
-
-        <p data-en="Discover our delicious homemade dishes and choose what you love."
-           data-ar="اكتشف أطباقنا البيتي اللذيذة واختار اللي يعجبك.">
-            Discover our delicious homemade dishes
-            and choose what you love.
-        </p>
-
-        <!-- ضع لينك Google Drive هنا -->
-        <a href="https://drive.google.com/file/d/1TyzPM0xh1jsRwtOd-i4XvqztyVMS5kVI/view?usp=sharing"
-           target="_blank"
-           class="main-btn"
-           data-en="View Full Menu"
-           data-ar="شوف المينيو كامل">
-            View Full Menu
-        </a>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-
-        <h2 data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
-
-        <p data-en="Ready to order or have a question? Get in touch with us."
-           data-ar="جاهز تطلب أو عندك سؤال؟ تواصل معانا.">
-            Ready to order or have a question?
-            Get in touch with us.
-        </p>
-
-        <div class="contact-buttons">
-
-            <a href="tel:01111451649" class="contact-btn" data-en="Call Us" data-ar="اتصل بينا">
-                Call Us
+    <!-- Google Drive Menu Link Section -->
+    <section id="drive-menu" class="drive-section section-padding bg-light">
+        <div class="container text-center">
+            <div class="section-header">
+                <h2>منيو جيجي كاترينج الكامل (PDF)</h2>
+                <p>يمكنك استعراض أو تحميل ملف المنيو بالكامل مباشرة من Google Drive</p>
+                <div class="line"></div>
+            </div>
+            <a href="https://drive.google.com/file/d/1TyzPM0xh1jsRwtOd-i4XvqztyVMS5kVI/view?usp=sharing" target="_blank" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-cloud-arrow-down"></i> فتح المنيو من Google Drive
             </a>
-
-            <a href="https://wa.me/201111451649"
-               target="_blank"
-               class="contact-btn"
-               data-en="WhatsApp"
-               data-ar="واتساب">
-                WhatsApp
-            </a>
-
         </div>
-
-        <p class="phone">
-            01111451649
-        </p>
-
     </section>
 
+    <!-- Menu Section (Categories Filter & Cards) -->
+    <section id="menu" class="menu section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>قائمة المأكولات والأسعار</h2>
+                <p>اختر أطباقك المفضلة وأضفها للسلة للطلب السريع عبر الواتساب</p>
+                <div class="line"></div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="poultry">الدواجن والطيور</button>
+                <button class="filter-btn" data-filter="meat">اللحوم المميزة</button>
+                <button class="filter-btn" data-filter="stuffed">المحاشي والطيور المحشية</button>
+                <button class="filter-btn" data-filter="casseroles">الطواجن والصواني</button>
+                <button class="filter-btn" data-filter="pasta">الباستا والبشاميل</button>
+                <button class="filter-btn" data-filter="rice">الأرز والأرز المعمر</button>
+            </div>
+
+            <!-- Dynamic Menu Grid -->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Javascript dynamic population based on PDF items -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Order Section -->
+    <section id="contact" class="contact section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>تواصل معنا وطلب العزومات</h2>
+                <p>نجهز لك أشهى المأكولات لمناسباتك وعزوماتك</p>
+                <div class="line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>الطلب والحجز</h4>
+                            <p>تواصل معنا للحجز المسبق والطلبات الخاصة</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div>
+                            <h4>تجهيز العزومات</h4>
+                            <p>نجهز صواني وطواجن العزومات بالكامل بأعلى جودة</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-truck"></i>
+                        <div>
+                            <h4>سرعة التوصيل</h4>
+                            <p>توصيل آمن للمنزل والمناسبات</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fast Custom Order Form -->
+                <form class="contact-form" id="customOrderForm">
+                    <h3>طلب مخصص أو استفسار</h3>
+                    <div class="form-group">
+                        <input type="text" id="custName" placeholder="الاسم بالكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="custPhone" placeholder="رقم الهاتف" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="custDetails" rows="4" placeholder="اكتب الأصناف المطلوبة والكميات أو تفاصيل العزومة..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">إرسال الطلب عبر الواتساب <i class="fa-brands fa-whatsapp"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sliding Panel -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>سلة الطلبات</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-body" id="cartItems">
+                <p class="empty-msg">السلة فارغة حالياً. قم بتبضع أطباقك المفضلة من القائمة!</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>الإجمالي التقديري:</span>
+                    <strong id="cartTotal">0 ج.م</strong>
+                </div>
+                <button class="btn btn-primary full-width" id="sendCartWhatsapp">تأكيد وإرسال الطلب عبر الواتساب <i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer>
-
-        <h3>Gigi Catering</h3>
-
-        <p data-en="Homemade Food • High Quality • Made with Love"
-           data-ar="أكل بيتي • جودة عالية • بكل حب">
-            Homemade Food &bull; High Quality &bull; Made with Love
-        </p>
-
-        <p data-en="© 2026 Gigi Catering. All Rights Reserved."
-           data-ar="© 2026 جيجي كاترينج. جميع الحقوق محفوظة.">
-            &copy; 2026 Gigi Catering. All Rights Reserved.
-        </p>
-
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 جيجي كاترينج (Gigi Catering) - جميع الحقوق محفوظة.</p>
+            <div class="socials">
+                <a href="https://drive.google.com/file/d/YOUR_DRIVE_FILE_ID/view?usp=sharing" target="_blank" title="رابط المنيو Google Drive"><i class="fa-solid fa-file-pdf"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
     </footer>
 
-
-    <!-- Scroll to top button -->
-    <button id="scrollTopBtn" aria-label="Scroll to top">&uarr;</button>
-
-
-    <script src="Js/Main.js"></script>
-
+    <!-- JS script -->
+    <script src="Js/Main.Js"></script>
 </body>
-
 </html>
