@@ -218,6 +218,6 @@ function setupForm() {
         const details = document.getElementById("custDetails").value;
 
         const msg = `مرحباً جيجي كاترينج،\nاسم العميل: ${name}\nرقم الهاتف: ${phone}\nتفاصيل الطلب أو العزومة:\n${details}`;
-        window.open(`https://wa.me/01111451649?text=${encodeURIComponent(msg)}`, "_blank");
+        window.open(`https://wa.me/201111451649?text=${encodeURIComponent(msg)}`, "_blank");
     });
 }
