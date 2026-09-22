@@ -194,7 +194,7 @@ function setupCart() {
         const total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
         message += `\nإجمالي الطلب التقديري: ${total} ج.م`;
 
-        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        window.open(`https://wa.me/201111451649?text=${encodeURIComponent(message)}`, "_blank");
     });
 }
 
@@ -218,6 +218,6 @@ function setupForm() {
         const details = document.getElementById("custDetails").value;
 
         const msg = `مرحباً جيجي كاترينج،\nاسم العميل: ${name}\nرقم الهاتف: ${phone}\nتفاصيل الطلب أو العزومة:\n${details}`;
-        window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
+        window.open(`https://wa.me/01111451649?text=${encodeURIComponent(msg)}`, "_blank");
     });
 }
