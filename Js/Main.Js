@@ -9,25 +9,25 @@ const menuItems = [
     { id: 6, title: "تشيكن استربس", category: "poultry", price: 300, unit: "الكيلو", image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80", desc: "أصابع دجاج مقرمشة طازجة" },
     { id: 7, title: "دبابيس كرانشي", category: "poultry", price: 300, unit: "الكيلو", image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80", desc: "دبابيس دجاج مقرمشة بالتتبيلة الخاصة" },
     { id: 8, title: "فراخ مسحب مخلية", category: "poultry", price: 350, unit: "الفرخة", image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=500&q=80", desc: "دجاج مالي تماماً من العظام ومتبل" },
-    { id: 9, title: "فراخ مكرملة", category: "poultry", price: 350, unit: "الفرخة", image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=500&q=80", desc: "دجاج بالبصل المكرمل والصوص المميز" },
+    { id: 9, title: "فراخ مكرملة", category: "poultry", price: 380, unit: "الفرخة", image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=500&q=80", desc: "دجاج بالبصل المكرمل والصوص المميز" },
     { id: 10, title: "شاورما فراخ", category: "poultry", price: 340, unit: "الكيلو", image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=500&q=80", desc: "شاورما فراخ بتتبيلة الشاورما الأصيلة" },
     { id: 11, title: "فراخ بانيه", category: "poultry", price: 280, unit: "الكيلو", image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80", desc: "بانيه دجاج مقرمش وذهبي" },
-    { id: 12, title: "كوردن بلو", category: "poultry", price: 420, unit: "الكيلو", image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=500&q=80", desc: "صدور دجاج محشية جبنة وروزبيف" },
+    { id: 12, title: "كوردن بلو", category: "poultry", price: 450, unit: "الكيلو", image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=500&q=80", desc: "صدور دجاج محشية جبنة وروزبيف" },
     { id: 13, title: "شيش طاووق (6 أسياخ)", category: "poultry", price: 320, unit: "الطلب", image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=500&q=80", desc: "أسياخ شيش طاووق متبلة ومشتوية" },
     { id: 14, title: "فرخة محمرة", category: "poultry", price: 320, unit: "الفرخة", image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=500&q=80", desc: "فرخة بلدي/بيضاء محمرة بالسمن البلدي" },
     { id: 15, title: "فرخة بلدي محشية", category: "poultry", price: 380, unit: "الفرخة", image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=500&q=80", desc: "دجاج بلدي محشي أرز أو فريك" },
 
     // --- قسم اللحوم المميزة ---
     { id: 16, title: "كفتة لحم بلدي", category: "meat", price: 495, unit: "الكيلو", image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=500&q=80", desc: "كفتة لحم بلدي مشوية طازجة" },
-    { id: 17, title: "كفتة داوود باشا", category: "meat", price: 480, unit: "الكيلو", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "رات كفتة في صوص الطماطم الأحمر" },
+    { id: 17, title: "كفتة داوود باشا", category: "meat", price: 500, unit: "الكيلو", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "رات كفتة في صوص الطماطم الأحمر" },
     { id: 18, title: "لحمة عصاج", category: "meat", price: 450, unit: "الكيلو", image: "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=500&q=80", desc: "لحم بلدي مفروم ومعصج جاهز" },
-    { id: 19, title: "ستيك ليمون", category: "meat", price: 550, unit: "الكيلو", image: "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=500&q=80", desc: "شرائح لحم ستيك بصوص الليمون والزبدة" },
-    { id: 20, title: "فاهيتا لحم", category: "meat", price: 500, unit: "الكيلو", image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80", desc: "فاهيتا لحم بلدي مع خضار مكرمل" },
-    { id: 21, title: "اسكالوب لحم", category: "meat", price: 550, unit: "الكيلو", image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80", desc: "بوفتيك اسكالوب بلدي مقرمش" },
-    { id: 22, title: "بيكاتا لحم", category: "meat", price: 550, unit: "الكيلو", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "شرائح لحم بلدي بصوص المشروم" },
-    { id: 23, title: "كبده اسكندراني", category: "meat", price: 500, unit: "الكيلو", image: "https://images.unsplash.com/photo-1514944298341-9880e65a852e?auto=format&fit=crop&w=500&q=80", desc: "كبده بلدي بالفلفل والثوم والفلفل الحار" },
-    { id: 24, title: "شاورما لحم", category: "meat", price: 550, unit: "الكيلو", image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=500&q=80", desc: "شاورما لحم بلدي بتتبيلة ممتازة" },
-    { id: 25, title: "ورقة لحمة (تكفي 4 أفراد)", category: "meat", price: 550, unit: "الصينية", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "لحم بلدي بالخضروات والبهارات بالفرن" },
+    { id: 19, title: "ستيك ليمون", category: "meat", price: 750, unit: "الكيلو", image: "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=500&q=80", desc: "شرائح لحم ستيك بصوص الليمون والزبدة" },
+    { id: 20, title: "فاهيتا لحم", category: "meat", price: 650, unit: "الكيلو", image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80", desc: "فاهيتا لحم بلدي مع خضار مكرمل" },
+    { id: 21, title: "اسكالوب لحم", category: "meat", price: 750, unit: "الكيلو", image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=80", desc: "بوفتيك اسكالوب بلدي مقرمش" },
+    { id: 22, title: "بيكاتا لحم", category: "meat", price: 750, unit: "الكيلو", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "شرائح لحم بلدي بصوص المشروم" },
+    { id: 23, title: "كبده اسكندراني", category: "meat", price: 550, unit: "الكيلو", image: "https://images.unsplash.com/photo-1514944298341-9880e65a852e?auto=format&fit=crop&w=500&q=80", desc: "كبده بلدي بالفلفل والثوم والفلفل الحار" },
+    { id: 24, title: "شاورما لحم", category: "meat", price: 750, unit: "الكيلو", image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=500&q=80", desc: "شاورما لحم بلدي بتتبيلة ممتازة" },
+    { id: 25, title: "ورقة لحمة (تكفي 4 أفراد)", category: "meat", price: 650, unit: "الصينية", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "لحم بلدي بالخضروات والبهارات بالفرن" },
 
     // --- قسم المحاشي والطيور المحشية ---
     { id: 26, title: "محشي كرنب", category: "stuffed", price: 160, unit: "الكيلو", image: "https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=500&q=80", desc: "محشي كرنب بيتي بخلطة المحشي الجبارة" },
@@ -38,25 +38,27 @@ const menuItems = [
 
     // --- قسم الطواجن والصواني ---
     { id: 31, title: "طاجن تورلي باللحم البلدي", category: "casseroles", price: 480, unit: "الطاجن", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", desc: "خضار مشكل باللحم البلدي في الفرن" },
-    { id: 32, title: "مسقعة باللحمة المفرومة", category: "casseroles", price: 220, unit: "الطاجن", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "باذنجان ولحم مفروم بلدي بصلصة الطماطم" },
-    { id: 33, title: "مسقعة بالبشاميل", category: "casseroles", price: 250, unit: "الصينية", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "مسقعة بيتي بطبقة بشاميل غنية" },
-    { id: 34, title: "كباب حلة (نصف كيلو)", category: "casseroles", price: 300, unit: "الطبق", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "قطع لحم بلدي بالبصل المكرمل" },
+    { id: 32, title: "مسقعة باللحمة المفرومة", category: "casseroles", price: 300, unit: "الطاجن", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "باذنجان ولحم مفروم بلدي بصلصة الطماطم" },
+    { id: 33, title: "مسقعة بالبشاميل", category: "casseroles", price: 285, unit: "الصينية", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "مسقعة بيتي بطبقة بشاميل غنية" },
+    { id: 34, title: "كباب حلة (نصف كيلو)", category: "casseroles", price: 350, unit: "الطبق", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "قطع لحم بلدي بالبصل المكرمل" },
     { id: 35, title: "صينية فراخ بالبطاطس (4 أفراد)", category: "casseroles", price: 450, unit: "الصينية", image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=500&q=80", desc: "دجاج مع شرائح البطاطس في الفرن" },
-    { id: 36, title: "طاجن لسان عصفور باللحمة", category: "casseroles", price: 450, unit: "الطاجن", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", desc: "لسان عصفور باللحم البلدي محمر بالفرن" },
+    { id: 36, title: "طاجن لسان عصفور باللحمة", category: "casseroles", price: 480, unit: "الطاجن", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", desc: "لسان عصفور باللحم البلدي محمر بالفرن" },
+    { id: 37, title: "طاجن باميه بالحمه", category: "casseroles", price: 450, unit: "الطاجن", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", desc: "لسان عصفور باللحم البلدي محمر بالفرن" },
+    { id: 38, title: "طاجن لحمه بالبصل", category: "casseroles", price: 450, unit: "الطاجن", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=500&q=80", desc: "لسان عصفور باللحم البلدي محمر بالفرن" },
 
     // --- قسم الباستا والبشاميل ---
-    { id: 37, title: "مكرونة بشاميل (6-7 أفراد)", category: "pasta", price: 350, unit: "الصينية", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=500&q=80", desc: "صينية مكرونة بشاميل باللحم المفروم البلدي" },
-    { id: 38, title: "كوسة بشاميل (4-5 أفراد)", category: "pasta", price: 250, unit: "الصينية", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "شرائح الكوسة الطازجة بالبشاميل واللحم" },
-    { id: 39, title: "لازانيا لحم (4-5 أفراد)", category: "pasta", price: 330, unit: "الصينية", image: "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=500&q=80", desc: "طبقات اللازانيا باللحم البلدي والجبن" },
-    { id: 40, title: "نجرسكو دجاج (4-5 أفراد)", category: "pasta", price: 300, unit: "الصينية", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=500&q=80", desc: "نجرسكو بالدجاج والمشروم والصوص الأبيض" },
+    { id: 39, title: "مكرونة بشاميل (6-7 أفراد)", category: "pasta", price: 400, unit: "الصينية", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=500&q=80", desc: "صينية مكرونة بشاميل باللحم المفروم البلدي" },
+    { id: 40, title: "كوسة بشاميل (4-5 أفراد)", category: "pasta", price: 350, unit: "الصينية", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=500&q=80", desc: "شرائح الكوسة الطازجة بالبشاميل واللحم" },
+    { id: 41, title: "لازانيا لحم (4-5 أفراد)", category: "pasta", price: 450, unit: "الصينية", image: "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=500&q=80", desc: "طبقات اللازانيا باللحم البلدي والجبن" },
+    { id: 42, title: "نجرسكو دجاج (4-5 أفراد)", category: "pasta", price: 380, unit: "الصينية", image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=500&q=80", desc: "نجرسكو بالدجاج والمشروم والصوص الأبيض" },
 
-    // --- قسم الأرز والأرز المعمر ---
-    { id: 41, title: "أرز بالشعرية", category: "rice", price: 100, unit: "السرفيس", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "أرز مفلفل بالسمن البلدي والشعرية" },
-    { id: 42, title: "أرز بسمتي بالمكسرات", category: "rice", price: 250, unit: "السرفيس", image: "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=500&q=80", desc: "أرز بسمتي مبهر ومزين بالمكسرات" },
-    { id: 43, title: "أرز معمر سادة (4-5 أفراد)", category: "rice", price: 250, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن أرز معمر فلاحي بالقشطة والحليب" },
-    { id: 44, title: "أرز معمر بالفراخ (4-5 أفراد)", category: "rice", price: 450, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن معمر محشي قطع الدجاج الطازجة" },
-    { id: 45, title: "أرز معمر باللحمة (4-5 أفراد)", category: "rice", price: 550, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن معمر محشي قطع اللحم البلدي" },
-    { id: 46, title: "فتة باللحمة (3-4 أفراد)", category: "rice", price: 490, unit: "السرفيس", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "فتة مصرية بالثوم والخل واللحم البلدي" }
+    // --- قسم الأرز والأرز المعمر --
+    { id: 43, title: "أرز بالشعرية", category: "rice", price: 100, unit: "السرفيس", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "أرز مفلفل بالسمن البلدي والشعرية" },
+    { id: 44, title: "أرز بسمتي بالمكسرات", category: "rice", price: 280, unit: "السرفيس", image: "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=500&q=80", desc: "أرز بسمتي مبهر ومزين بالمكسرات" },
+    { id: 45, title: "أرز معمر سادة (4-5 أفراد)", category: "rice", price: 250, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن أرز معمر فلاحي بالقشطة والحليب" },
+    { id: 46, title: "أرز معمر بالفراخ (4-5 أفراد)", category: "rice", price: 450, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن معمر محشي قطع الدجاج الطازجة" },
+    { id: 47, title: "أرز معمر باللحمة (4-5 أفراد)", category: "rice", price: 550, unit: "الطاجن", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=500&q=80", desc: "طاجن معمر محشي قطع اللحم البلدي" },
+    { id: 48, title: "فتة باللحمة (3-4 أفراد)", category: "rice", price: 490, unit: "السرفيس", image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80", desc: "فتة مصرية بالثوم والخل واللحم البلدي" }
 ];
 
 let cart = [];
@@ -177,23 +179,20 @@ function setupCart() {
     const close = document.getElementById("closeCart");
     const send = document.getElementById("sendCartWhatsapp");
 
+    
     btn.addEventListener("click", () => modal.classList.add("open"));
     close.addEventListener("click", () => modal.classList.remove("open"));
-
     send.addEventListener("click", () => {
         if (cart.length === 0) {
             alert("السلة فارغة!");
             return;
         }
-
         let message = "مرحباً جيجي كاترينج، أرغب في طلب الأطباق التالية من المنيو:\n\n";
         cart.forEach((item, index) => {
             message += `${index + 1}. ${item.title} - الكمية: ${item.qty} (${item.unit}) - السعر: ${item.price * item.qty} ج.م\n`;
         });
-
         const total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
         message += `\nإجمالي الطلب التقديري: ${total} ج.م`;
-
         window.open(`https://wa.me/201111451649?text=${encodeURIComponent(message)}`, "_blank");
     });
 }
